@@ -13,7 +13,7 @@ class CidadesTableSeeder extends Seeder
     {
         DB::table('cidades')->delete();
         
-        
+        // Acre
         DB::table('cidades')->insert(['id_estado' => 1, 'nome' => 'Acrelândia']);
         DB::table('cidades')->insert(['id_estado' => 1, 'nome' => 'Assis Brasil']);
         DB::table('cidades')->insert(['id_estado' => 1, 'nome' => 'Brasiléia']);
@@ -37,6 +37,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 1, 'nome' => 'Tarauacá']);
         DB::table('cidades')->insert(['id_estado' => 1, 'nome' => 'Xapuri']);
 
+        // Alagoas
         DB::table('cidades')->insert(['id_estado' => 2, 'nome' => "Água Branca"]);
         DB::table('cidades')->insert(['id_estado' => 2, 'nome' => "Anadia"]);
         DB::table('cidades')->insert(['id_estado' => 2, 'nome' => "Arapiraca"]);
@@ -140,6 +141,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 2, 'nome' => "União dos Palmares"]);
         DB::table('cidades')->insert(['id_estado' => 2, 'nome' => "Viçosa"]);
 
+        // Amapá
         DB::table('cidades')->insert(['id_estado' => 3, 'nome' => "Amapá"]);
         DB::table('cidades')->insert(['id_estado' => 3, 'nome' => "Calçoene"]);
         DB::table('cidades')->insert(['id_estado' => 3, 'nome' => "Cutias"]);
@@ -157,6 +159,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 3, 'nome' => "Tartarugalzinho"]);
         DB::table('cidades')->insert(['id_estado' => 3, 'nome' => "Vitória do Jari"]);
 
+        // Amazonas
         DB::table('cidades')->insert(['id_estado' => 4, 'nome' => "Alvarães"]);
         DB::table('cidades')->insert(['id_estado' => 4, 'nome' => "Amaturá"]);
         DB::table('cidades')->insert(['id_estado' => 4, 'nome' => "Anamã"]);
@@ -220,6 +223,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 4, 'nome' => "Urucará"]);
         DB::table('cidades')->insert(['id_estado' => 4, 'nome' => "Urucurituba"]);
 
+        // Bahia
         DB::table('cidades')->insert(['id_estado' => 5, 'nome' => "Abaíra"]);
         DB::table('cidades')->insert(['id_estado' => 5, 'nome' => "Abaré"]);
         DB::table('cidades')->insert(['id_estado' => 5, 'nome' => "Acajutiba"]);
@@ -638,6 +642,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 5, 'nome' => "Wenceslau Guimarães"]);
         DB::table('cidades')->insert(['id_estado' => 5, 'nome' => "Xique-Xique"]);
 
+        // Ceará
         DB::table('cidades')->insert(['id_estado' => 6, 'nome' => "Abaiara"]);
         DB::table('cidades')->insert(['id_estado' => 6, 'nome' => "Acarape"]);
         DB::table('cidades')->insert(['id_estado' => 6, 'nome' => "Acaraú"]);
@@ -823,8 +828,10 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 6, 'nome' => "Várzea Alegre"]);
         DB::table('cidades')->insert(['id_estado' => 6, 'nome' => "Viçosa do Ceará"]);
 
+        // Distrito Federal
         DB::table('cidades')->insert(['id_estado' => 7, 'nome' => "Brasília"]);
 
+        // Espírito Santo
         DB::table('cidades')->insert(['id_estado' => 8, 'nome' => "Afonso Cláudio"]);
         DB::table('cidades')->insert(['id_estado' => 8, 'nome' => "Água Doce do Norte"]);
         DB::table('cidades')->insert(['id_estado' => 8, 'nome' => "Águia Branca"]);
@@ -904,6 +911,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 8, 'nome' => "Vila Velha"]);
         DB::table('cidades')->insert(['id_estado' => 8, 'nome' => "Vitória"]);
 
+        // Goiás
         DB::table('cidades')->insert(['id_estado' => 9, 'nome' => "Abadia de Goiás"]);
         DB::table('cidades')->insert(['id_estado' => 9, 'nome' => "Abadiânia"]);
         DB::table('cidades')->insert(['id_estado' => 9, 'nome' => "Acreúna"]);
@@ -1151,6 +1159,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 9, 'nome' => "Vila Boa"]);
         DB::table('cidades')->insert(['id_estado' => 9, 'nome' => "Vila Propício"]);
 
+        // Maranhão
         DB::table('cidades')->insert(['id_estado' => 10, 'nome' => "Açailândia"]);
         DB::table('cidades')->insert(['id_estado' => 10, 'nome' => "Afonso Cunha"]);
         DB::table('cidades')->insert(['id_estado' => 10, 'nome' => "Água Doce do Maranhão"]);
@@ -1369,6 +1378,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 10, 'nome' => "Vitorino Freire"]);
         DB::table('cidades')->insert(['id_estado' => 10, 'nome' => "Zé Doca"]);
 
+        // Mato Grosso
         DB::table('cidades')->insert(['id_estado' => 11, 'nome' => "Acorizal"]);
         DB::table('cidades')->insert(['id_estado' => 11, 'nome' => "Água Boa"]);
         DB::table('cidades')->insert(['id_estado' => 11, 'nome' => "Alta Floresta"]);
@@ -1511,6 +1521,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 11, 'nome' => "Vila Bela da Santíssima Trindade"]);
         DB::table('cidades')->insert(['id_estado' => 11, 'nome' => "Vila Rica"]);
 
+        // Mato Grosso do Sul
         DB::table('cidades')->insert(['id_estado' => 12, 'nome' => "Água Clara"]);
         DB::table('cidades')->insert(['id_estado' => 12, 'nome' => "Alcinópolis"]);
         DB::table('cidades')->insert(['id_estado' => 12, 'nome' => "Amambai"]);
@@ -1590,6 +1601,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 12, 'nome' => "Três Lagoas"]);
         DB::table('cidades')->insert(['id_estado' => 12, 'nome' => "Vicentina"]);
 
+        // Minas Gerais
         DB::table('cidades')->insert(['id_estado' => 13, 'nome' => "Abadia dos Dourados"]);
         DB::table('cidades')->insert(['id_estado' => 13, 'nome' => "Abaeté"]);
         DB::table('cidades')->insert(['id_estado' => 13, 'nome' => "Abre Campo"]);
@@ -2444,6 +2456,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 13, 'nome' => "Volta Grande"]);
         DB::table('cidades')->insert(['id_estado' => 13, 'nome' => "Wenceslau Braz"]);
 
+        // Pará
         DB::table('cidades')->insert(['id_estado' => 14, 'nome' => "Abaetetuba"]);
         DB::table('cidades')->insert(['id_estado' => 14, 'nome' => "Abel Figueiredo"]);
         DB::table('cidades')->insert(['id_estado' => 14, 'nome' => "Acará"]);
@@ -2588,6 +2601,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 14, 'nome' => "Vitória do Xingu"]);
         DB::table('cidades')->insert(['id_estado' => 14, 'nome' => "Xinguara"]);
 
+        // Paraíba
         DB::table('cidades')->insert(['id_estado' => 15, 'nome' => "Água Branca"]);
         DB::table('cidades')->insert(['id_estado' => 15, 'nome' => "Aguiar"]);
         DB::table('cidades')->insert(['id_estado' => 15, 'nome' => "Alagoa Grande"]);
@@ -2812,6 +2826,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 15, 'nome' => "Vista Serrana"]);
         DB::table('cidades')->insert(['id_estado' => 15, 'nome' => "Zabelê"]);
 
+        // Paraná
         DB::table('cidades')->insert(['id_estado' => 16, 'nome' => "Abatiá"]);
         DB::table('cidades')->insert(['id_estado' => 16, 'nome' => "Adrianópolis"]);
         DB::table('cidades')->insert(['id_estado' => 16, 'nome' => "Agudos do Sul"]);
@@ -3212,6 +3227,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 16, 'nome' => "Wenceslau Braz"]);
         DB::table('cidades')->insert(['id_estado' => 16, 'nome' => "Xambrê"]);
 
+        // Pernambuco
         DB::table('cidades')->insert(['id_estado' => 17, 'nome' => "Abreu e Lima"]);
         DB::table('cidades')->insert(['id_estado' => 17, 'nome' => "Afogados da Ingazeira"]);
         DB::table('cidades')->insert(['id_estado' => 17, 'nome' => "Afrânio"]);
@@ -3398,6 +3414,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 17, 'nome' => "Vitória de Santo Antão"]);
         DB::table('cidades')->insert(['id_estado' => 17, 'nome' => "Xexéu"]);
 
+        // Piauí
         DB::table('cidades')->insert(['id_estado' => 18, 'nome' => "Acauã"]);
         DB::table('cidades')->insert(['id_estado' => 18, 'nome' => "Agricolândia"]);
         DB::table('cidades')->insert(['id_estado' => 18, 'nome' => "Água Branca"]);
@@ -3623,6 +3640,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 18, 'nome' => "Vila Nova do Piauí"]);
         DB::table('cidades')->insert(['id_estado' => 18, 'nome' => "Wall Ferraz"]);
 
+        // Rio de Janeiro
         DB::table('cidades')->insert(['id_estado' => 19, 'nome' => "Angra dos Reis"]);
         DB::table('cidades')->insert(['id_estado' => 19, 'nome' => "Aperibé"]);
         DB::table('cidades')->insert(['id_estado' => 19, 'nome' => "Araruama"]);
@@ -3716,6 +3734,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 19, 'nome' => "Vassouras"]);
         DB::table('cidades')->insert(['id_estado' => 19, 'nome' => "Volta Redonda"]);
 
+        // Rio Grande do Norte
         DB::table('cidades')->insert(['id_estado' => 20, 'nome' => "Acari"]);
         DB::table('cidades')->insert(['id_estado' => 20, 'nome' => "Açu"]);
         DB::table('cidades')->insert(['id_estado' => 20, 'nome' => "Afonso Bezerra"]);
@@ -3884,6 +3903,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 20, 'nome' => "Viçosa"]);
         DB::table('cidades')->insert(['id_estado' => 20, 'nome' => "Vila Flor"]);
 
+        // Rio Grande do Sul
         DB::table('cidades')->insert(['id_estado' => 21, 'nome' => "Aceguá"]);
         DB::table('cidades')->insert(['id_estado' => 21, 'nome' => "Água Santa"]);
         DB::table('cidades')->insert(['id_estado' => 21, 'nome' => "Agudo"]);
@@ -4381,6 +4401,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 21, 'nome' => "Westfalia"]);
         DB::table('cidades')->insert(['id_estado' => 21, 'nome' => "Xangri-lá"]);
 
+        // Rondônia
         DB::table('cidades')->insert(['id_estado' => 22, 'nome' => "Alta Floresta D'Oeste"]);
         DB::table('cidades')->insert(['id_estado' => 22, 'nome' => "Alto Alegre dos Parecis"]);
         DB::table('cidades')->insert(['id_estado' => 22, 'nome' => "Alto Paraíso"]);
@@ -4434,6 +4455,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 22, 'nome' => "Vale do Paraíso"]);
         DB::table('cidades')->insert(['id_estado' => 22, 'nome' => "Vilhena"]);
 
+        // Roraima
         DB::table('cidades')->insert(['id_estado' => 23, 'nome' => "Alto Alegre"]);
         DB::table('cidades')->insert(['id_estado' => 23, 'nome' => "Amajari"]);
         DB::table('cidades')->insert(['id_estado' => 23, 'nome' => "Boa Vista"]);
@@ -4450,6 +4472,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 23, 'nome' => "São Luiz"]);
         DB::table('cidades')->insert(['id_estado' => 23, 'nome' => "Uiramutã"]);
 
+        // Santa Catarina
         DB::table('cidades')->insert(['id_estado' => 24, 'nome' => "Abdon Batista"]);
         DB::table('cidades')->insert(['id_estado' => 24, 'nome' => "Abelardo Luz"]);
         DB::table('cidades')->insert(['id_estado' => 24, 'nome' => "Agrolândia"]);
@@ -4744,6 +4767,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 24, 'nome' => "Xaxim"]);
         DB::table('cidades')->insert(['id_estado' => 24, 'nome' => "Zortéa"]);
 
+        // São Paulo
         DB::table('cidades')->insert(['id_estado' => 25, 'nome' => "Adamantina"]);
         DB::table('cidades')->insert(['id_estado' => 25, 'nome' => "Adolfo"]);
         DB::table('cidades')->insert(['id_estado' => 25, 'nome' => "Aguaí"]);
@@ -5390,6 +5414,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 25, 'nome' => "Votuporanga"]);
         DB::table('cidades')->insert(['id_estado' => 25, 'nome' => "Zacarias"]);
 
+        // Sergipe
         DB::table('cidades')->insert(['id_estado' => 26, 'nome' => "Amparo de São Francisco"]);
         DB::table('cidades')->insert(['id_estado' => 26, 'nome' => "Aquidabã"]);
         DB::table('cidades')->insert(['id_estado' => 26, 'nome' => "Aracaju"]);
@@ -5466,6 +5491,7 @@ class CidadesTableSeeder extends Seeder
         DB::table('cidades')->insert(['id_estado' => 26, 'nome' => "Tomar do Geru"]);
         DB::table('cidades')->insert(['id_estado' => 26, 'nome' => "Umbaúba"]);
 
+        // Tocantins
         DB::table('cidades')->insert(['id_estado' => 27, 'nome' => "Abreulândia"]);
         DB::table('cidades')->insert(['id_estado' => 27, 'nome' => "Aguiarnópolis"]);
         DB::table('cidades')->insert(['id_estado' => 27, 'nome' => "Aliança do Tocantins"]);
