@@ -37,7 +37,7 @@ class EstadosTableSeeder extends Seeder
         DB::table('estados')->insert(['id' => 22, 'sigla' => 'RO', 'nome' => 'Rondônia']);
         DB::table('estados')->insert(['id' => 23, 'sigla' => 'RR', 'nome' => 'Roraima']);
         DB::table('estados')->insert(['id' => 24, 'sigla' => 'SC', 'nome' => 'Santa Catarina']);
-        DB::table('estados')->insert(['id' => 25, 'sigla' => 'AC', 'nome' => 'São Paulo']);
+        DB::table('estados')->insert(['id' => 25, 'sigla' => 'SP', 'nome' => 'São Paulo']);
         DB::table('estados')->insert(['id' => 26, 'sigla' => 'SE', 'nome' => 'Sergipe']);
         DB::table('estados')->insert(['id' => 27, 'sigla' => 'TO', 'nome' => 'Tocantins']);
     }
